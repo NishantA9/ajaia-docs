@@ -1,0 +1,20 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f6f7f9; color: #1d1d1f; }
+.page { max-width: 880px; margin: 0 auto; padding: 24px; }
+header, .topbar, .actions { display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+button { padding: 6px 12px; border: 1px solid #c7cbd1; border-radius: 6px; background: #fff; cursor: pointer; }
+button.on { background: #1d1d1f; color: #fff; }
+button.danger { color: #b42318; margin-top: 16px; }
+button.link { border: none; background: none; color: #1a56db; font-size: 16px; padding: 0; }
+.error { background: #fee4e2; color: #b42318; padding: 10px; border-radius: 6px; margin: 12px 0; }
+.muted { color: #6b7280; font-size: 14px; }
+.title { width: 100%; font-size: 28px; font-weight: 600; border: none; background: transparent; padding: 12px 0; outline: none; }
+.editor { background: #fff; border: 1px solid #e4e7ec; border-radius: 8px; }
+.toolbar { display: flex; gap: 6px; padding: 8px; border-bottom: 1px solid #e4e7ec; flex-wrap: wrap; }
+.ProseMirror { padding: 20px; min-height: 380px; outline: none; line-height: 1.6; }
+.ProseMirror ul, .ProseMirror ol { padding-left: 24px; }
+section { margin-top: 28px; }
+.share form { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+.share input { flex: 1; padding: 6px; min-width: 200px; }
+.login { max-width: 360px; margin: 80px auto; display: grid; gap: 10px; }
+.login button { text-align: left; padding: 12px; }
+li { margin: 8px 0; }
