@@ -6,7 +6,7 @@ Built for the Ajaia Full Stack Product Engineer assessment.
 
 ## Live demo
 
-**URL:** https://YOUR-RENDER-URL
+**URL:** https://ajaia-docs-h1cs.onrender.com/
 
 Log in with any demo account. No password is needed (see Limitations).
 
